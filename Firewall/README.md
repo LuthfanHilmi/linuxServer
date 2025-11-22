@@ -59,13 +59,13 @@ iptables -A INPUT -s 192.168.10.2 -j DROP
 ```bash
 iptables -A FORWARD -m mac --mac-source 00:22:08:9A:15 -o enp0s3 -j DROP
 ```
-![]()
 
 8. Memberikan rule untuk ip 192.168.10.2 agar tidak dapat mengakses ip youtube.
 
 ```bash
 iptables -A FORWARD -s 192.168.10.2 -d 74.125.68.190 -o enp0s3 -J DROP
 ```
+![]()
 
 >> Untuk melihat rules yang telah dibuat bisa menggunakan perintah iptables -L -v -n.
 >> Untuk menghapus seluruh konfigurasi bisa menggunakan perintah iptables -F.
