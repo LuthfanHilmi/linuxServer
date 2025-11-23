@@ -77,14 +77,14 @@ File-file yang akan dikonfigurasi
 
 10. Berikutnya di file **db.192**
     
-    ![alt text](https://github.com/lutvan/linuxServer/blob/main/linuxServer/Membuat%20DNS/image/konfigurasiFiledb192.png "konfigurasi di file db.192")
+    ![alt text](https://github.com/LuthfanHilmi/linuxServer/blob/main/Membuat%20DNS/image/konfigurasiFiledb192.png)
 
 
 11. Setelah file db.praktik dan db.192 dikonfigurasi, langkah selanjutnya  masuk ke file **/etc/resolv.conf**
     ```bash
     nano /etc/resolv.conf
     ```
-    ![alt text](https://github.com/lutvan/linuxServer/blob/main/linuxServer/Membuat%20DNS/image/fileresolv.png "edit di file resolv.conf")
+    ![alt text](https://github.com/LuthfanHilmi/linuxServer/blob/main/Membuat%20DNS/image/fileresolv.png)
 
 12. langkah terakhir restart bind9 dengan
     ```bash
@@ -98,10 +98,10 @@ File-file yang akan dikonfigurasi
     - mail.test.com
       
     Hasil ping :  
-    ![alt text](https://github.com/lutvan/linuxServer/blob/main/linuxServer/Membuat%20DNS/image/hasilping.png "hasil ping")
+    ![alt text](https://github.com/LuthfanHilmi/linuxServer/blob/main/Membuat%20DNS/image/hasilping.png)
 
     Hasil nslookup :  
-    ![alt text](https://github.com/lutvan/linuxServer/blob/main/linuxServer/Membuat%20DNS/image/hasilnslookuppng.png "hasil nslookup")
+    ![alt text](https://github.com/LuthfanHilmi/linuxServer/blob/main/Membuat%20DNS/image/hasilnslookuppng.png)
    
 
 
