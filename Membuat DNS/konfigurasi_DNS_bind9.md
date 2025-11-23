@@ -71,7 +71,7 @@ File-file yang akan dikonfigurasi
 
 8. Selanjutnya konfigurasi file **db.praktik**
    
-   ![alt text](https://github.com/lutvan/linuxServer/blob/main/linuxServer/Membuat%20DNS/image/konfigurasiFiledbpraktik.png "konfigurasi di file db.praktik")
+   ![alt text](https://github.com/LuthfanHilmi/linuxServer/blob/main/Membuat%20DNS/image/konfigurasiFiledbpraktik.png)
    #### Penjelasan
    >> www, ftp, dan mail adalah subdomain.
 
